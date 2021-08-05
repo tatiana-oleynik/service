@@ -1,0 +1,70 @@
+.healthyFood {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+
+    @media (min-width: $desktop-width) {
+        flex-wrap: nowrap;
+    }
+}
+
+.healthyFood_title {
+    @include indents;
+    margin-bottom: 25px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        max-width: 387px;
+        margin-right: 146px;
+        margin-left: 49px;
+        margin-bottom: 55px;
+
+
+        font-size: 54px;
+        line-height: 63px;
+
+        text-align: left;
+    }
+}
+
+.healthyFood_text {
+    @include indents;
+
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    margin-bottom: 25px;
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        max-width: 396px;
+        margin-right: 137px;
+        margin-left: 49px;
+        margin-bottom: 0;
+
+        font-size: 20px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+.healthyFood_img {
+    width: 217px;
+    height: 159px;
+    margin-left: 40px;
+
+    @media (min-width: 960px) {
+        width: 617px;
+        height: 509px;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,323 @@
+@import "http://fonts.fontstorage.com/import/ptrootui.css";
+body {
+    font-family: 'PT Root UI';
+    width: 1200px;
+    margin: 0 auto;
+
+    background-color: #E5E5E5;
+    background-image: url("images/vector.png"), url("images/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%, 0% 100%;
+}
+
+.mainNav_list {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    margin-bottom: 68px;
+    padding: 0;
+    padding-top: 40px;
+
+    list-style: none;
+    
+}
+
+.mainNav_item {
+    margin-right: 58px;
+}
+
+.mainNav_item::after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+.mainNav_item--orange::after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #FF5F33;
+    background-color: #FF5F33;
+    border-radius: 50%;
+}
+
+.mainNav_link {
+    max-width: 0;
+    padding: 0;
+    font-size: 16,8px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}
+
+.healthyFood {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.healthyFood_title {
+    margin: 0;
+    margin-bottom: 55px;
+    padding: 0;
+
+    max-width: 387px;
+    margin-right: 146px;
+    margin-left: 49px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54.88px;
+    line-height: 63,11px;
+}
+
+.healthyFood_text {
+    margin: 0;
+    padding: 0;
+
+    max-width: 396px;
+    margin-right: 137px;
+    margin-left: 49px;
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.healthyFood_img {
+    width: 617,23px;
+    height: 509,86px;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FF5F33;
+
+    text-align: center;
+}
+
+.subtitle {
+    margin: 0;
+    padding: 0;
+
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+.subtitle--basics {
+    margin-bottom: 48px;
+}
+
+.subtitle--standards {
+    margin-bottom: 56px;
+} 
+
+.basics {
+    margin-bottom: 64px;
+}
+
+.basics_list {
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+
+    background-color: #F3F3F3;
+    list-style: none;
+}
+
+.basics_item {
+    width: 331px;
+    padding-bottom: 61px;
+}
+
+.basics_item--first {
+    margin-right: 52px;
+    margin-left: 69px;
+}
+
+.basics_item--second {
+    margin-right: 36px;
+}
+
+.basics_text {
+    margin: 0;
+    padding: 0;
+}
+
+.basics_apple {
+    padding-top: 40px;
+    margin-left: 20%;
+    margin-bottom: 21px;
+    width: 147,03px;
+    height: 164,56px;
+}
+
+.basics_fish {
+    padding-top: 60px;
+    margin-left: 20%;
+    margin-bottom: 44px;
+    width: 173px;
+    height: 160px;
+}
+
+.basics_cheese {
+    padding-top: 62px;
+    margin-left: 20%;
+    margin-bottom: 43px;
+    width: 154px;
+    height: 159,19px;
+}
+
+.standards_wrapper {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.standards_img {
+    width: 580px;
+    height: 543px;
+    margin-right: 80px;
+}
+
+.standards_list{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.standards_item {
+    position: relative;
+    width: 258px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+
+    border-radius: 20px 0 20px 0;
+    background-color: #F3F3F3;
+}
+
+.standards_pic {
+    width: 50px;
+    height: 66px;
+    position: absolute;
+    top: 169px;
+    left: 187px;
+    
+}
+
+.standards_item--right {
+    margin-right: 0;
+}
+
+.standards_link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.standards_title {
+    margin: 0;
+    margin-top: 23px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    padding: 0;
+    width: 118px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.standards_text {
+    margin: 0;
+    padding: 0;
+    width: 118px;
+    margin-left: 16px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.subtitle--questions {
+    margin-bottom: 48px;
+}
+
+.questions_text {
+    display: block;
+    /* display: none; */
+    margin-bottom: 24px;
+    width: 612px;
+    padding-left: 100px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color:#000000;
+  }
+
+ 
+  .questions_checker,
+  .questions_checker--second {
+    opacity: 0;
+    position: absolute;
+  }
+  .questions_checker:checked ~ .questions_text,
+  .questions_checker--second:checked ~ .questions_text {
+    display: block;
+  }
+  .questions_checker ~ .questions_button::after {
+    content: url("images/arrow.png");
+    transform: rotate(180deg);
+    position: absolute;
+    top: 12px;
+    right: 26px;
+  }
+
+  .questions_checker ~ .questions_button--up::after {
+    content: url("images/arrow.png");
+    position: absolute;
+    top: 12px;
+    right: 26px;
+  }
+
+  .questions_button,
+  .questions_button--up {
+    position: relative;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #F3F3F3;
+
+    display: block;
+    width: 1100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 16px;
+    padding-left: 100px;
+ }
+

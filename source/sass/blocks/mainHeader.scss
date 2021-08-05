@@ -1,0 +1,53 @@
+.mainNav_list {
+    display: flex;
+    justify-content: center;
+
+    @include indents;
+    margin-bottom: 38px;
+    padding-top: 40px;
+
+    list-style: none;
+
+    @media (min-width: $desktop-width) {
+        margin-bottom: 68px;
+    }
+    
+}
+
+.mainNav_item {
+    margin-right: 20px;
+    @media (min-width: $desktop-width) {
+        margin-right: 58px;
+    }
+}
+
+.mainNav_item::after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+.mainNav_item--orange::after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #FF5F33;
+    background-color: #FF5F33;
+    border-radius: 50%;
+}
+
+.mainNav_link {
+    @include indents;
+    font-size: 16,8px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+@import "http://fonts.fontstorage.com/import/ptrootui.css";
+body {
+    font-family: 'PT Root UI';
+    width: 320px;
+    margin: 0 auto;
+
+    background-color: #E5E5E5;
+
+    @media (min-width: $desktop-width) {
+        width: 1200px;
+        background-image: url("../img/vector.png"), url("../img/Vector.png");
+        background-repeat: no-repeat;
+        background-position: 97% 0%, 0% 105%;
+
+    }
+}
+.title {
+    @include indents;
+    margin-bottom: 8px;
+
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FF5F33;
+
+    text-align: center;
+}
+
+.subtitle {
+    @include indents;
+    
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+.subtitle--basics {
+    margin-bottom: 48px;
+}
+
+.subtitle--standards {
+    margin-bottom: 56px;
+} 
+
+.subtitle--questions {
+    margin-bottom: 48px;
+}
